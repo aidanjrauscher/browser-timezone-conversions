@@ -16,6 +16,6 @@ function toUniversalTime(theTime) {
 
 function toUniversalDate(theDate) {
     //create a moment with a date in the appropriate format, covert to UTC
-    var dateUTC = moment(date, 'YYYY-MM-DD HH:mm', currTz).utc().format('yyyy-MM-DD');
+    var dateUTC = moment(theDate, 'YYYY-MM-DD HH:mm', currTz).utc().format('yyyy-MM-DD');
     return dateUTC; 
 }
