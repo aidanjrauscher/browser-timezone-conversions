@@ -1,14 +1,14 @@
 # browser-timezone-conversions
 
-### A set of JavaScript functions than can convert times and dates from UTC to local times, and back. 
+## A set of JavaScript functions than can convert times and dates from UTC to local times, and back. 
 
-###### toLocal.js
+### toLocal.js
 Functions to convert a given time or date into the client's timezone.
 
-###### toUTC.js
+### toUTC.js
 Functions to convert a given time or date from the client's timezone into UTC.
 
-###### dst.js
+### dst.js
 Function to counteract default Daylight Savings Time offset used in the Moment/Moment Timezone libraries. 
 
 Utilizes the Moment, Moment Timezone, and JS Time Zone Detect (https://www.npmjs.com/package/jstimezonedetect) packages.
