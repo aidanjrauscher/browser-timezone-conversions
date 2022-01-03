@@ -1,6 +1,6 @@
 # browser-timezone-conversions
 
-A set of JavaScript functions to convert times and dates from UTC to local times, and back. 
+A set of JavaScript functions to handle help resolve timezone-related issues on the client-side.
 
 ### toLocal.js
 Functions to convert a given time or date into the client's timezone.
