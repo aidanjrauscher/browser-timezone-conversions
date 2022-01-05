@@ -13,10 +13,10 @@ function shiftDST() {
     dateTime = moment().utc().format("HH:MM:SS YYYY-MM-DD");
   }
   else if(currDST==true && isDST==false){
-    dateTime = moment().utc().add(1, "hours").format("HH:MM:SS YYYY-MM-DD"); 
+    dateTime = moment().utc().add(-1, "hours").format("HH:MM:SS YYYY-MM-DD"); 
   }
   else if(currDST==false && isDST==true){
-    dateTime = moment().utc().add(-1, "hours").format("HH:MM:SS YYYY-MM-DD"); 
+    dateTime = moment().utc().add(1, "hours").format("HH:MM:SS YYYY-MM-DD"); 
   }
   else{
     dateTime = moment().utc().format("HH:MM:SS YYYY-MM-DD");
